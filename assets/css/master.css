@@ -68,17 +68,17 @@ p {
 }
 
 a {
-  font-family: "Righteous", cursive;
+  font-family: Righteous, cursive;
   font-size: 1rem;
 }
 
 span {
-  font-family: "Righteous", cursive;
+  font-family: Righteous, cursive;
   font-size: 1rem;
 }
 
 li {
-  font-family: "Righteous", cursive;
+  font-family: Righteous, cursive;
   text-transform: uppercase;
   font-weight: bold;
   list-style: none;
@@ -86,7 +86,7 @@ li {
 }
 
 select {
-  font-family: "Righteous", cursive;
+  font-family: Righteous, cursive;
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
