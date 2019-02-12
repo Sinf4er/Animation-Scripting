@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+h2 {
+  color: $font-primary-color;
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary-font;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  color: 100% $font-secondary-color;
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary-font;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  color: $font-primary-color;
+  font-family: $font-secondary-font;
+  font-size: 1rem;
+}
+
+p {
+  font-family: $font-secondary-font;
+  letter-spacing: 1.1px;
+  font-size: 1rem;
+}
+
+a {
+  font-family: $font-primary-font;
+  font-size: 1rem;
+}
+
+span {
+  font-family: $font-primary-font;
+  font-size: 1rem;
+}
+
+li {
+  font-family: $font-primary-font;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+  padding: 25px 25px;
+}
+
+select {
+  font-family: $font-primary-font;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+}

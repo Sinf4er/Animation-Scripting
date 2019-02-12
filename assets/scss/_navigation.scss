@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.linklist {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.linklist li:not(:first-child):hover  {
+  background-color: lightgray;
+  transition: ease-in-out 0.2s;
+}
+
+.linklist li:nth-child(1) {
+  margin: 0 50px 0 0;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons {
+  .like {
+    margin-right: 25px;
+  }
+}
