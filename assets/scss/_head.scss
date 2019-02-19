@@ -1,33 +1,33 @@
 .head {
   width: 100%;
+  margin-top: 70px;
   height: calc(80vh - 71px);
-  background: rgba(248, 80, 80, 1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(248, 80, 80, 1) 0%, rgba(255, 56, 56, 1) 100%);
-  background: -webkit-gradient(radial,center center 0px,center center,100%,color-stop(0%, rgba(248, 70, 70, 1)),color-stop(100%, rgba(255, 56, 56, 1)));
-  align-items: center;
-  justify-content: center;
+background: #f85050; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f85050 0%, #db2929 39%, #f85050 68%, #db2929 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f85050 0%,#db2929 39%,#f85050 68%,#db2929 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f85050 0%,#db2929 39%,#f85050 68%,#db2929 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85050', endColorstr='#db2929',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   position: relative;
 }
 
 .product_presentation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px ;
   display: flex;
   align-items: center;
-  juswtify-content: center;
+  width: 100%;
   max-width: 1300px;
-  overflow: hidden;
 }
 
 .product_presentation {
      img {
-          margin-left: -35px;
+          margin-left: -60px;
      }
-  .text {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-  }
+  
   h2 {
     width: 100%;
   }

@@ -1,5 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Righteous");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v43/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
 
 h2 {
   color: $font-primary-color;
@@ -15,18 +43,26 @@ h3 {
   margin: 0;
   padding: 0;
   font-family: $font-primary-font;
-  font-size: 1.5rem;
-  letter-spacing: 1.5px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }
 
 h4 {
-  color: $font-primary-color;
+  color: $font-third-color;
   font-family: $font-secondary-font;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 p {
   font-family: $font-secondary-font;
+  letter-spacing: 1.1px;
+  font-size: 1rem;
+}
+
+.second_font-color {
+  font-family: $font-secondary-font;
+  color: $font-primary-color;
   letter-spacing: 1.1px;
   font-size: 1rem;
 }
@@ -55,4 +91,8 @@ select {
   text-transform: uppercase;
   font-weight: bold;
   list-style: none;
+}
+
+label {
+  font-family: $font-secondary-font;
 }

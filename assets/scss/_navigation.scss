@@ -1,9 +1,10 @@
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1300px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  border-bottom: .015rem solid #c2c2c2 ;
 }
 
 .linklist {
@@ -14,7 +15,13 @@
   padding: 0;
 }
 
+
 .linklist li:not(:first-child):hover  {
+  background-color: lightgray;
+  transition: ease-in-out 0.2s;
+}
+
+.icons :hover  {
   background-color: lightgray;
   transition: ease-in-out 0.2s;
 }
@@ -26,10 +33,10 @@
 
 .icons {
   display: flex;
+  margin: 0;
 }
 
-.icons {
-  .like {
-    margin-right: 25px;
-  }
+.like,
+.basket {
+  padding: 21px;
 }
