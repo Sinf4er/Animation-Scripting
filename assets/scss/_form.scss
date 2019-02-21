@@ -12,14 +12,19 @@
 
 .login_window {
   opacity: 0;
-  visibility: hidden;
-  z-index: 3;
+  z-index: -1;
   display: flex;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  transition: 0.2s ease-out;
+}
+
+.window_active {
+  opacity: 1;
+  z-index: 4;
 }
 
 .first_big_box {
@@ -48,7 +53,25 @@
   right: 0;
   bottom: 0;
   width: 50%;
+  .close_form {
+    font-size: 2rem;
+    transition: .2s ease-out;
+  }
 }
+
+#close_form {
+  position: absolute;
+  right: 1.5rem;
+  padding: 1rem;
+  z-index: 4;
+}
+
+.close_form:hover {
+  transform-origin: 50% 50%;
+  transform: rotate(180deg);
+}
+
+
 
 .bg-login {
   position: relative;

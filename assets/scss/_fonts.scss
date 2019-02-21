@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Righteous");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+@import url("https://use.typekit.net/whv2mek.css");
+
 
 /* fallback */
 @font-face {
@@ -9,6 +10,7 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v43/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
+
 
 .material-icons {
   font-family: 'Material Icons';
@@ -22,18 +24,15 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
-
-
-
 
 h2 {
   color: $font-primary-color;
   margin: 0;
   padding: 0;
   font-family: $font-primary-font;
+  font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 1.5px;
 }

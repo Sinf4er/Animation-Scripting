@@ -27,7 +27,7 @@
       align-items: center;
       justify-content: space-between;
     }
-    margin-top: 30px;
+    margin-top: 3rem;
     border: 1px solid lightgray;
     img {
       width: 300px;
@@ -59,10 +59,18 @@
 
 article {
   max-width: 1300px;
-  margin: 5rem auto;
+  margin: 3rem auto;
   display: flex;
   align-items: center;
 }
+
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -32px;
+}
+
 .brands {
   height: 60px;
   margin: 2rem;

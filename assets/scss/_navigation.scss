@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 2;
   top: 0;
-  border-bottom: .015rem solid #c2c2c2 ;
+  border-bottom: 0.015rem solid #c2c2c2;
 }
 
 .linklist {
@@ -15,13 +15,7 @@
   padding: 0;
 }
 
-
-.linklist li:not(:first-child):hover  {
-  background-color: lightgray;
-  transition: ease-in-out 0.2s;
-}
-
-.icons :hover  {
+.linklist li:not(:first-child):hover {
   background-color: lightgray;
   transition: ease-in-out 0.2s;
 }
@@ -34,9 +28,22 @@
 .icons {
   display: flex;
   margin: 0;
+  li {
+    padding:  25px 0;
+  }
+  a{
+    padding: 25px;
+  }
+  i {
+    font-size: 1.9rem;
+    top: 20px;
+    
+  }
 }
 
-.like,
-.basket {
-  padding: 21px;
+.icons :hover {
+  transition: ease-in-out 0.2s;
+  i {
+    color: #c2c2c2;
+  }
 }
