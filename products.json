@@ -1,20 +1,20 @@
 [
 	{
-		"artnr": "120123",
-		"title": "Adidas Red Pro",
+		"artnr": "111111",
+		"title": "Adidas original",
 		"img": "adidas-originals-sneaker-weiss-598555.jpg",
 		"price": 69.95,
-		"stock": 1000
+		"stock": 50
 	},{
-		"artnr": "2023764",
-		"title": "Batman USB Licht",
-		"img": "1201412014Batman_USB_Licht_10.jpg",
+		"artnr": "222222",
+		"title": "Adidas Performance",
+		"img": "adidas-performance-sneaker-schwarz-543931.webp",
 		"price": 14.2,
-		"stock": 150
+		"stock": 29
 	},{
-		"artnr": "205454",
-		"title": "You shall not pass",
-		"img": "Fussmatte_Gandalf_01.jpg",
+		"artnr": "333333",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-grau-649515.jpg",
 		"price": 24.9,
 		"stock": 50
 	},{
