@@ -9,19 +9,19 @@
 		"artnr": "222222",
 		"title": "Adidas Performance",
 		"img": "adidas-performance-sneaker-schwarz-543931.webp",
-		"price": 14.2,
+		"price": 84.9,
 		"stock": 29
 	},{
 		"artnr": "333333",
 		"title": "Diesel Sneaker",
 		"img": "diesel-sneaker-grau-649515.jpg",
-		"price": 24.9,
+		"price": 89.9,
 		"stock": 50
 	},{
-		"artnr": "80234",
-		"title": "CSS Puns Ninja",
-		"img": "CSS-ninja.jpg",
-		"price": 15.99,
+		"artnr": "444444",
+		"title": "Diesel High black",
+		"img": "diesel-sneaker-schwarz-649540.jpg",
+		"price": 59.99,
 		"dimentions": [
 			{
 				"code": "G",
