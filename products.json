@@ -143,5 +143,40 @@
 			["444444-GL", 15],
 			["444444-GXL", 2]
 		]
-	}
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 1
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 2
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 3
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
 ]
