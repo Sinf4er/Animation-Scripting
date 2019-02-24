@@ -4,19 +4,109 @@
 		"title": "Adidas original",
 		"img": "adidas-originals-sneaker-weiss-598555.jpg",
 		"price": 69.95,
-		"stock": 50
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["S", {
+						"label": "Small",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "Medium",
+						"add_price": 1
+					}],
+					["L", {
+						"label": "Large",
+						"add_price": 2
+					}],
+					["XL", {
+						"label": "X-Large",
+						"add_price": 3
+					}]
+				]
+			}
+		],
+		"stock": [
+			["111111-GS", 10],
+			["111111-GM", 10],
+			["111111-GL", 15],
+			["111111-GXL", 2]
+		]
 	},{
 		"artnr": "222222",
 		"title": "Adidas Performance",
 		"img": "adidas-performance-sneaker-schwarz-543931.webp",
 		"price": 84.9,
-		"stock": 29
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["S", {
+						"label": "Small",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "Medium",
+						"add_price": 1
+					}],
+					["L", {
+						"label": "Large",
+						"add_price": 2
+					}],
+					["XL", {
+						"label": "X-Large",
+						"add_price": 3
+					}]
+				]
+			}
+		],
+		"stock": [
+			["222222-GS", 10],
+			["222222-GM", 10],
+			["222222-GL", 15],
+			["222222-GXL", 2]
+		]
 	},{
 		"artnr": "333333",
 		"title": "Diesel Sneaker",
 		"img": "diesel-sneaker-grau-649515.jpg",
 		"price": 89.9,
-		"stock": 50
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["S", {
+						"label": "Small",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "Medium",
+						"add_price": 1
+					}],
+					["L", {
+						"label": "Large",
+						"add_price": 2
+					}],
+					["XL", {
+						"label": "X-Large",
+						"add_price": 3
+					}]
+				]
+			}
+		],
+		"stock": [
+			["333333-GS", 10],
+			["333333-GM", 10],
+			["333333-GL", 15],
+			["333333-GXL", 2]
+		]
 	},{
 		"artnr": "444444",
 		"title": "Diesel High black",
