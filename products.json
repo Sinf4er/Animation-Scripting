@@ -10,30 +10,40 @@
 				"label": "Größe",
 				"type": "generic",
 				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
 					["S", {
-						"label": "Small",
+						"label": "41",
 						"add_price": 0
 					}],
 					["M", {
-						"label": "Medium",
-						"add_price": 1
+						"label": "42",
+						"add_price": 0
 					}],
 					["L", {
-						"label": "Large",
-						"add_price": 2
+						"label": "43",
+						"add_price": 0
 					}],
 					["XL", {
-						"label": "X-Large",
-						"add_price": 3
+						"label": "44",
+						"add_price": 0
 					}]
 				]
 			}
 		],
 		"stock": [
-			["111111-GS", 10],
-			["111111-GM", 10],
+			["111111-GXXS", 9],
+			["111111-GXS", 27],
+			["111111-GS", 0],
+			["111111-GM", 12],
 			["111111-GL", 15],
-			["111111-GXL", 2]
+			["111111-GXL", 8]
 		]
 	},{
 		"artnr": "222222",
@@ -46,30 +56,40 @@
 				"label": "Größe",
 				"type": "generic",
 				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
 					["S", {
-						"label": "Small",
+						"label": "41",
 						"add_price": 0
 					}],
 					["M", {
-						"label": "Medium",
-						"add_price": 1
+						"label": "42",
+						"add_price": 0
 					}],
 					["L", {
-						"label": "Large",
-						"add_price": 2
+						"label": "43",
+						"add_price": 0
 					}],
 					["XL", {
-						"label": "X-Large",
-						"add_price": 3
+						"label": "44",
+						"add_price": 0
 					}]
 				]
 			}
 		],
 		"stock": [
-			["222222-GS", 10],
-			["222222-GM", 10],
-			["222222-GL", 15],
-			["222222-GXL", 2]
+			["222222-GXXS", 8],
+			["222222-GXS", 7],
+			["222222-GS", 5],
+			["222222-GM", 1],
+			["222222-GL", 33],
+			["222222-GXL", 0]
 		]
 	},{
 		"artnr": "333333",
@@ -82,29 +102,39 @@
 				"label": "Größe",
 				"type": "generic",
 				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
 					["S", {
-						"label": "Small",
+						"label": "41",
 						"add_price": 0
 					}],
 					["M", {
-						"label": "Medium",
-						"add_price": 1
+						"label": "42",
+						"add_price": 0
 					}],
 					["L", {
-						"label": "Large",
-						"add_price": 2
+						"label": "43",
+						"add_price": 0
 					}],
 					["XL", {
-						"label": "X-Large",
-						"add_price": 3
+						"label": "44",
+						"add_price": 0
 					}]
 				]
 			}
 		],
 		"stock": [
-			["333333-GS", 10],
-			["333333-GM", 10],
-			["333333-GL", 15],
+			["333333-GXXS", 18],
+			["333333-GXS", 20],
+			["333333-GS", 0],
+			["333333-GM", 1],
+			["333333-GL", 18],
 			["333333-GXL", 2]
 		]
 	},{
@@ -118,30 +148,40 @@
 				"label": "Größe",
 				"type": "generic",
 				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
 					["S", {
-						"label": "Small",
+						"label": "41",
 						"add_price": 0
 					}],
 					["M", {
-						"label": "Medium",
-						"add_price": 1
+						"label": "42",
+						"add_price": 0
 					}],
 					["L", {
-						"label": "Large",
-						"add_price": 2
+						"label": "43",
+						"add_price": 0
 					}],
 					["XL", {
-						"label": "X-Large",
-						"add_price": 3
+						"label": "44",
+						"add_price": 0
 					}]
 				]
 			}
 		],
 		"stock": [
+			["444444-GXXS", 5],
+			["444444-GXS", 8],
 			["444444-GS", 10],
 			["444444-GM", 10],
 			["444444-GL", 15],
-			["444444-GXL", 2]
+			["444444-GXL", 0]
 		]
 	},{
 		"artnr": "555555",
@@ -154,26 +194,496 @@
 				"label": "Größe",
 				"type": "generic",
 				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
 					["S", {
 						"label": "41",
 						"add_price": 0
 					}],
 					["M", {
 						"label": "42",
-						"add_price": 1
+						"add_price": 0
 					}],
 					["L", {
 						"label": "43",
-						"add_price": 2
+						"add_price": 0
 					}],
 					["XL", {
 						"label": "44",
-						"add_price": 3
+						"add_price": 0
 					}]
 				]
 			}
 		],
 		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
+			["555555-GS", 0],
+			["555555-GM", 18],
+			["555555-GL", 2],
+			["555555-GXL", 3]
+		]
+	},{
+		"artnr": "555555",
+		"title": "Diesel Sneaker",
+		"img": "diesel-sneaker-schwarz-649551.webp",
+		"price": 84.9,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					["XXS", {
+						"label": "39",
+						"add_price": 0
+					}],
+					["XS", {
+						"label": "40",
+						"add_price": 0
+					}],
+					["S", {
+						"label": "41",
+						"add_price": 0
+					}],
+					["M", {
+						"label": "42",
+						"add_price": 0
+					}],
+					["L", {
+						"label": "43",
+						"add_price": 0
+					}],
+					["XL", {
+						"label": "44",
+						"add_price": 0
+					}]
+				]
+			}
+		],
+		"stock": [
+			["555555-GXXS", 20],
+			["555555-GXS", 0],
 			["555555-GS", 0],
 			["555555-GM", 18],
 			["555555-GL", 2],
