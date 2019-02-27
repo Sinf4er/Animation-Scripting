@@ -3,7 +3,7 @@
 		"artnr": "111111",
 		"title": "Adidas original",
 		"img": "adidas-originals-sneaker-weiss-598555.jpg",
-		"price": 69.95,
+		"price": 169.95,
 		"dimentions": [
 			{
 				"code": "G",
@@ -49,7 +49,7 @@
 		"artnr": "222222",
 		"title": "Adidas Performance",
 		"img": "adidas-performance-sneaker-schwarz-543931.webp",
-		"price": 84.9,
+		"price": 184.9,
 		"dimentions": [
 			{
 				"code": "G",
@@ -95,7 +95,7 @@
 		"artnr": "333333",
 		"title": "Diesel Sneaker",
 		"img": "diesel-sneaker-grau-649515.jpg",
-		"price": 89.9,
+		"price": 189.9,
 		"dimentions": [
 			{
 				"code": "G",
@@ -141,7 +141,7 @@
 		"artnr": "444444",
 		"title": "Diesel High black",
 		"img": "diesel-sneaker-schwarz-649540.jpg",
-		"price": 59.99,
+		"price": 159.99,
 		"dimentions": [
 			{
 				"code": "G",
@@ -187,7 +187,7 @@
 		"artnr": "555555",
 		"title": "Diesel Sneaker",
 		"img": "diesel-sneaker-schwarz-649551.webp",
-		"price": 84.9,
+		"price": 184.9,
 		"dimentions": [
 			{
 				"code": "G",
@@ -279,7 +279,7 @@
 		"artnr": "777777",
 		"title": "Diesel Sneaker Weiss",
 		"img": "diesel-sneaker-weiss-649545.webp",
-		"price": 99.9,
+		"price": 199.9,
 		"dimentions": [
 			{
 				"code": "G",
@@ -417,7 +417,7 @@
 		"artnr": "649551",
 		"title": "Nike SB Braun",
 		"img": "nike-sb-sneaker-braun-580025.webp",
-		"price": 84.9,
+		"price": 184.9,
 		"dimentions": [
 			{
 				"code": "G",
@@ -463,7 +463,7 @@
 		"artnr": "456123",
 		"title": "Nike Sneaker schwarz",
 		"img": "nike-sneaker-schwarz-587779.webp",
-		"price": 79.9,
+		"price": 179.9,
 		"dimentions": [
 			{
 				"code": "G",
