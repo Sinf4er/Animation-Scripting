@@ -1,0 +1,361 @@
+[
+	{
+		"artnr": "120123",
+		"title": "Pac-Man Geister-Lampe",
+		"description": "Du hättest gerne Dein eigenes kleines Gespenst, konntest Dich bisher aber nicht für einen der bunten Geister aus Pac-Man entscheiden? Praktischerweise bekommst Du mit der Pac-Man Geister-Lampe Blinky, Inky, Pinky und Clyde alle auf einmal. ;) Die Lampe ändert beständig die Farbe und sorgt so für einen beruhigendes Lichtspiel auf Deinem Schreibtisch.",
+		"img": "11841Pac-Man_Geister_Lampe_17.jpg",
+		"price": 32.95,
+		"stock": 0
+	},
+	{
+		"artnr": "2023764",
+		"title": "Batman USB Licht",
+		"description": "The signal goes on and he shows up. That's the way it's been, that's the way it will be. Was will man mehr, ein zuverlässiger Superheld, der sozusagen auf Knopfdruck kommt. Braucht man nur noch das richtige Signal. Für Dein eigenes kleines Gotham haben wir deshalb das Batsignal in passender Größe. :) ",
+		"img": "1201412014Batman_USB_Licht_10.jpg",
+		"price": 14.2,
+		"stock": 150
+	},
+	{
+		"artnr": "205454",
+		"title": "You shall not pass",
+		"description": "Mit der Fußmatte You shall not pass kannst Du Dich ein bisschen wie Gandalf der Graue selbst fühlen. Deine Schwiegermutter, die GEZ, die stalkende Ex-Freundin oder wen auch immer Du nicht vorbeilassen möchtest, sie alle haben doch ein wenig Balrog-Ähnlichkeit oder? Zumindest, was die Bedrohlichkeit betrifft.",
+		"img": "Fussmatte_Gandalf_01.jpg",
+		"price": 24.9,
+		"stock": 50
+	},
+	{
+		"artnr": "80234",
+		"title": "CSS Puns Ninja",
+		"description": "Die Zutaten sind denkbar einfach: Natürlich sollte ein Ninja schwarz, unsichtbar und möglichst schnell bzw. nur kurz anwesend sein. Das erfordert im echten Ninja-Leben viele Jahre hartes Training, in CSS ist das zum Glück eine Anfänger-Aufgabe.",
+		"img": "CSS-ninja.jpg",
+		"price": 15.99,
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					[
+						"S",
+						{
+							"label": "Small",
+							"add_price": 0
+						}
+					],
+					[
+						"M",
+						{
+							"label": "Medium",
+							"add_price": 1
+						}
+					],
+					[
+						"L",
+						{
+							"label": "Large",
+							"add_price": 2
+						}
+					],
+					[
+						"XL",
+						{
+							"label": "X-Large",
+							"add_price": 3
+						}
+					]
+				]
+			}
+		],
+		"stock": [
+			[
+				"803234-GS",
+				10
+			],
+			[
+				"803234-GL",
+				15
+			],
+			[
+				"803234-GXL",
+				2
+			]
+		]
+	},
+	{
+		"artnr": "9024",
+		"title": "Tetris Kissen",
+		"description": "Fehlt nur noch ein bisschen Platz auf Deinem Sofa oder Bett. Zum Glück sind alle Blöcke schön weich, Du musst Dich also nicht selbst in einen kantigen Tetromino verwandeln, um Dich einzukuscheln. Einen schönen Effekt gibt es aber, wenn Du die bekannte russische Arcade-Melodie dazu summst. Di-di-di-di-di-di-di-di-di-di-de-de-de-de-de-de-dedee-dedee-da-da-da-da-da-da-da-da-da-daa, du-du-du-du-du-du-duuu-duuu...",
+		"img": "12464Arcarde_Blocks_Kissen_main.jpg",
+		"price": 17.9,
+		"dimentions": [
+			{
+				"code": "F",
+				"label": "Form",
+				"type": "generic",
+				"values": [
+					[
+						"S",
+						{
+							"label": "S-förmig",
+							"add_price": 0
+						}
+					],
+					[
+						"L",
+						{
+							"label": "L-förmig",
+							"add_price": 0
+						}
+					],
+					[
+						"I",
+						{
+							"label": "I-förmig",
+							"add_price": 0
+						}
+					],
+					[
+						"Q",
+						{
+							"label": "quadratisch",
+							"add_price": 0
+						}
+					],
+					[
+						"T",
+						{
+							"label": "T-förmig",
+							"add_price": 0
+						}
+					]
+				]
+			}
+		],
+		"stock": [
+			[
+				"9024-FQ",
+				10
+			],
+			[
+				"9024-FL",
+				2
+			],
+			[
+				"9024-FT",
+				2
+			],
+			[
+				"9024-FS",
+				20
+			]
+		]
+	},
+	{
+		"artnr": "925634",
+		"title": "42",
+		"description": "42 ist die Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest. Diese allesbedeutende Antwort wird von dem Riesencomputer Deep Thought nach 7,5 Millionen Jahren Berechnung gegeben - leider auch mit dem Hinweis, dass die Erklärung dieser Antwort sich ergibt, wenn die eigentliche Frage erst hinreichend formuliert sei.",
+		"price": 17.9,
+		"img": "42_blau.jpg",
+		"dimentions": [
+			{
+				"code": "G",
+				"label": "Größe",
+				"type": "generic",
+				"values": [
+					[
+						"S",
+						{
+							"label": "Small",
+							"add_price": 0
+						}
+					],
+					[
+						"M",
+						{
+							"label": "Medium",
+							"add_price": 1
+						}
+					],
+					[
+						"L",
+						{
+							"label": "Large",
+							"add_price": 2
+						}
+					],
+					[
+						"XL",
+						{
+							"label": "X-Large",
+							"add_price": 3
+						}
+					]
+				]
+			},
+			{
+				"code": "C",
+				"label": "Color",
+				"type": "color",
+				"values": [
+					[
+						"blue",
+						{
+							"label": "Light Blue",
+							"img": "42_blau.jpg",
+							"color": "#2DDAF1",
+							"add_price": 0
+						}
+					],
+					[
+						"red",
+						{
+							"label": "Red",
+							"img": "42_rot.jpg",
+							"color": "#DD0000",
+							"add_price": 0
+						}
+					]
+				]
+			}
+		],
+		"dimentions_img": [
+			[
+				"42_blau.jpg",
+				[
+					"925634-GS-Cblue",
+					"925634-GM-Cblue",
+					"925634-GL-Cblue",
+					"925634-GXL-Cblue"
+				]
+			],
+			[
+				"42_rot.jpg",
+				[
+					"925634-GS-Cred",
+					"925634-GM-Cred",
+					"925634-GL-Cred",
+					"925634-GXL-Cred"
+				]
+			]
+		],
+		"stock": [
+			[
+				"925634-GS-Cblue",
+				10
+			],
+			[
+				"925634-GM-Cblue",
+				2
+			],
+			[
+				"925634-GL-Cblue",
+				1
+			],
+			[
+				"925634-GXL-Cblue",
+				20
+			],
+			[
+				"925634-GS-Cred",
+				10
+			],
+			[
+				"925634-GM-Cred",
+				45
+			],
+			[
+				"925634-GL-Cred",
+				2
+			],
+			[
+				"925634-GXL-Cred",
+				290
+			]
+		]
+	},
+	{
+		"artnr": "4024",
+		"title": "USB-C Kabel",
+		"description": "Supertolles USB-C Kabel. End-to-End Strength, Reinforced Connectors, High-Speed Charging, Incredibly Strong",
+		"price": 17.9,
+		"img": "usbc_rot.jpg",
+		"dimentions": [
+			{
+				"code": "L",
+				"label": "Length",
+				"type": "generic",
+				"values": [
+					[
+						"90",
+						{
+							"label": "90 cm",
+							"add_price": 0
+						}
+					],
+					[
+						"200",
+						{
+							"label": "2 Meter",
+							"add_price": 10
+						}
+					]
+				]
+			},
+			{
+				"code": "C",
+				"label": "Color",
+				"type": "color",
+				"img": "usbc_rot.jpg",
+				"values": [
+					[
+						"black",
+						{
+							"label": "Black",
+							"img": "usbc_grau.jpg",
+							"color": "#000000",
+							"add_price": 0
+						}
+					],
+					[
+						"red",
+						{
+							"label": "Red",
+							"color": "#EE0000",
+							"add_price": 2
+						}
+					]
+				]
+			}
+		],
+		"dimentions_img": [
+			[
+				"usbc_rot.jpg",
+				[
+					"4024-L90-Cred",
+					"4024-L200-Cred"
+				]
+			],
+			[
+				"usbc_grau.jpg",
+				[
+					"4024-L90-Cblack",
+					"4024-L200-Cblack"
+				]
+			]
+		],
+		"stock": [
+			[
+				"4024-L90-Cblack",
+				5
+			],
+			[
+				"4024-L90-Cred",
+				2
+			],
+			[
+				"4024-L200-Cblack",
+				1
+			]
+		]
+	}
+]

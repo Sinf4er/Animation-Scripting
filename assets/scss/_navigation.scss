@@ -1,7 +1,7 @@
 .navigation {
   background-color: #fff;
   width: 100%;
-  position: fixed;
+  position: sticky;
   z-index: 2;
   top: 0;
   border-bottom: 0.015rem solid #c2c2c2;
@@ -10,9 +10,11 @@
 .linklist {
   display: flex;
   align-items: center;
-  align-items: center;
   margin: 0;
   padding: 0;
+  li {
+    padding: 25px;
+  }
 }
 
 .linklist li:not(:first-child):hover {
@@ -25,19 +27,40 @@
   padding: 0;
 }
 
+.linklist_mobile {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  background-color: #fff;
+  border-top: 0.015rem solid #c2c2c2;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-around;
+  img {
+    width: 23px;
+    margin-right: 5px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .icons {
+  padding: 0;
   display: flex;
   margin: 0;
   li {
-    padding:  25px 0;
+    padding: 25px 0;
   }
-  a{
+  a {
     padding: 25px;
   }
   i {
     font-size: 1.9rem;
     top: 20px;
-    
   }
 }
 
@@ -46,4 +69,9 @@
   i {
     color: #c2c2c2;
   }
+}
+
+.basket {
+  margin-left: 20px;
+  cursor: pointer;
 }

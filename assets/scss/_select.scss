@@ -1,4 +1,12 @@
 select {
-        border: none;
-        user-select: none;
+  border: none;
+  user-select: none;
+  background: #000;
+  color: $font-primary-color;
+  height: 1.62rem;
+}
+
+option {
+  background-color: #fff;
+  color: #000;
 }

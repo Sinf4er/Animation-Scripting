@@ -1,42 +1,57 @@
 .filter {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
-  margin: 50px 0 25px 0;
+  max-width: 1300px;
+  margin: 2rem auto;
+  .filter_kid {
+    background-color: #000;
+    padding: 0.5rem;
+    margin-left: 1.8rem;
+    font-size: 20px;
+    font-family: $font-secondary-font;
+    font-weight: bold;
+    color: $font-primary-color;
+  }
 }
 
-.filter {
-  li {
-    font-size: 30px;
-    color: lightgrey;
-  }
+.filter_kid:first-child {
+  margin-left: 0;
+}
+
+.seperate_filter {
+  display: flex;
 }
 
 .products {
   display: flex;
   max-width: 1300px;
-  margin: 25px auto 50px auto;
+  margin: 0px auto 50px auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .products {
   .cart {
+    position: relative;
+    width: 302px;
+    height: 470px;
+    padding: 0;
+    margin-bottom: 30px;
     .information {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      max-width: 300px;
     }
-    margin-top: 3rem;
     border: 1px solid lightgray;
     img {
       width: 300px;
     }
     div {
-      margin: 5px;
       img {
         width: 30px;
-        margin: 20px;
       }
     }
   }
@@ -44,7 +59,6 @@
 
 .newsletter {
   margin: 50px 0 0 0;
-  padding: 20px 0;
   background: #3e3e3e;
 
   article {
@@ -61,6 +75,7 @@ article {
   max-width: 1300px;
   margin: 3rem auto;
   display: flex;
+  padding: 2rem 1rem;
   align-items: center;
 }
 
@@ -74,4 +89,9 @@ article {
 .brands {
   height: 60px;
   margin: 2rem;
+}
+
+#news {
+  height: 2rem;
+  min-width: 200px;
 }

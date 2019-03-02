@@ -21,7 +21,14 @@
 </head>
 
 <body id="start">
-        <div class="navigation">
+
+        <ul class="linklist_mobile">
+                <li><a href="#" id="to_shop"><img src="assets/pic/shopping-bag.svg" alt="Shop"> Shop </a></li>
+                <li><a href="#" id="to_brand"><img src="assets/pic/tag.svg" alt="Brands"> Brands</a></li>
+                <li><a href="#"><img src="assets/pic/contact.svg" alt="Kontakt"> Kontakt</a></li>
+        </ul>
+
+        <div class="navigation spacer">
                 <div class="wrapper">
                         <h1 class="hidden">Black Box</h1>
                         <ul class="linklist">
@@ -38,16 +45,14 @@
                                 <li class="user"><a href="#" id="account_window"><i class="material-icons prefix">account_box</i>
                                         </a></li>
                                 <li class="like"><a href="#"><i class="material-icons prefix">favorite_border</i> </a></li>
-                                <li class="basket cart_cnt"> <a href="#"><i class="material-icons prefix">shopping_cart</i>
-                                        </a></li>
-                                </a>
+                                <li class="basket cart_cnt shop_cart__component_cnt"></li>
                         </ul>
                 </div>
         </div>
         <header>
 
                 <div class="head">
-                        <div class="product_presentation">
+                        <div class="product_presentation spacer">
 
                                 <div class="picture"><img src="assets/pic/nike-red1.png" width="600" alt="Roter Schuh"></div>
                                 <div class="text">
@@ -65,215 +70,49 @@
                                         </div>
                                 </div>
                         </div>
-                        <a href="#" id="to_shop1"><img class="downer shake-vertical" src="assets/pic/arrow-down.svg" width="30" alt="pfeil nach unten"></a>
+                        <a href="#" id="to_shop1"><img class="downer shake-vertical" src="assets/pic/arrow-down.svg"
+                                        width="30" alt="pfeil nach unten"></a>
                 </div>
         </header>
         <main>
-                <section id="shop">
-                        <ul class="filter">
-                                <li>Zeig mir
-                                        <select name="Filter_typs" id="typ" class="sort" autofocus>
+                <section id="shop" class="spacer">
+                        <h5 class="hidden">shop</h5>
+                        <div class="filter ">
+                                <div class="filter_kid">Zeig mir:
+                                        <select name="Filter_typs" id="typ" class="sort">
                                                 <option value="Sneaker">Sneaker</option>
                                                 <option value="Boots">Boots</option>
                                                 <option value="Stiefel">Stiefel</option>
                                         </select>
-                                </li>
-                                <li>Grösse
-                                        <select name="Filter_size" id="size" class="sort" autofocus>
-                                                <option value="All">Alle</option>
-                                                <option value="39">39</option>
-                                                <option value="40">40</option>
-                                                <option value="41">41</option>
-                                                <option value="42">42</option>
-                                                <option value="43">43</option>
-                                                <option value="44">44</option>
-                                        </select>
-                                </li>
-                                <li>Sortiere nach
-                                        <select name="Filter_price" id="price" class="sort" autofocus>
-                                                <option value="Verfügbar">Verfügbar</option>
-                                                <option value="Preis">ᗑ Preis</option>
-                                                <option value="ᗐ Preis">ᗐ Preis</option>
-                                        </select>
-                                </li>
-                        </ul>
-
-                        <div class="products">
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/adidas-originals-sneaker-weiss-598555.jpg" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Adidas</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
                                 </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/adidas-originals-sneaker-weiss-600948.jpg" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Adidas</h3>
-                                                        <span>65,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
+                                <div class="seperate_filter">
+                                        <div class="filter_kid">Grösse:
+                                                <select name="Filter_size" id="size" class="sort">
+                                                        <option value="All">Alle</option>
+                                                        <option value="39">39</option>
+                                                        <option value="40">40</option>
+                                                        <option value="41">41</option>
+                                                        <option value="42">42</option>
+                                                        <option value="43">43</option>
+                                                        <option value="44">44</option>
+                                                </select>
                                         </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/adidas-performance-sneaker-schwarz-543931.webp"
-                                                alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Adidas</h3>
-                                                        <span>90 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-grau-649515.jpg" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-grau-649519.jpg" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-schwarz-649540.jpg" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-schwarz-649551.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-weiss-649513.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-weiss-649545.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-weiss-649567.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/diesel-sneaker-weiss-651588.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>Diesel</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="cart">
-                                        <img src="assets/pic/sneaker/jack--jones-sneaker-blau-601427.webp" alt="adidas schwarz sneaker">
-                                        <div class="information">
-                                                <div>
-                                                        <h3>JackJones</h3>
-                                                        <span>69,99 €</span>
-                                                </div>
-                                                <hr>
-                                                <div>
-                                                        <a href="#"> <img src="assets/pic/add.svg" alt="more"></a>
-                                                        <a href=""> <img src="assets/pic/add-to-the-cart.svg" alt="cart"></a>
-                                                </div>
+                                        <div class="filter_kid">Sortiere nach:
+                                                <select name="Filter_price" id="price" class="sort">
+                                                        <option value="Verfügbar">Verfügbarkeit</option>
+                                                        <option value="Preis">ᗑ Preis</option>
+                                                        <option value="ᗐ Preis">ᗐ Preis</option>
+                                                </select>
                                         </div>
                                 </div>
                         </div>
-                        <a href="#" class="load_more">mehr laden</a>
+                        <ul class="shop_product_list__list products products"></ul>
                 </section>
-                <section id="brand">
+                <a href="#" class="load_more">mehr laden</a>
+                <section id="brand" class="spacer">
+                        <h5 class="hidden">section brand</h5>
                         <article>
+                                <h5 class="hidden">brands</h5>
                                 <div class="brand">
                                         <img class="brands" src="assets/pic/brands/Esprit_Holdings_logo.png" alt="esprit">
                                         <img class="brands" src="assets/pic/brands/Puma_Logo.svg.png" alt="Puma">
@@ -288,8 +127,10 @@
                                 </div>
                         </article>
                 </section>
-                <section class="newsletter" >
+                <section class="newsletter">
+                        <h5 class="hidden">section newsletter</h5>
                         <article>
+                                <h5 class="hidden">newsletter</h5>
                                 <p class="second_font-color">Werde Trendsetter und bekomme immer die aktuellsten
                                         Nachrichten über unsere Produkte</p>
                                 <form action="#" id="newsletter">
@@ -299,7 +140,7 @@
                         </article>
                 </section>
                 <footer>
-                        <section>
+                        <section class="spacer">
                                 <div class="footer_menu">
                                         <h4>Shop</h4>
                                         <ul>
@@ -349,14 +190,13 @@
                                         </ul>
                                 </div>
                         </section>
-                        <div class="line"></div>
+                        <div class="line spacer"></div>
                         <div class="downer_footer">
                                 <div class="wrapper">
                                         <img src="assets/pic/Logo/blackbox_logo-sw.svg" alt="Logo" width="120">
                                         <img src="assets/pic/arrow-down.svg" width="30" alt="nach oben" id="back-to-top1"
                                                 style="transform: rotate(-180deg);">
-                                        <small>&#169 Copyright by Black Box</small>
-                                        </a>
+                                        <small>&#169; Copyright by Black Box</small>
                                 </div>
                         </div>
                 </footer>
@@ -373,32 +213,44 @@
                         <div class="bg-login"></div>
                         <div class="form_middle">
                                 <h4>Login</h4>
-                                <form action="#">
+                                <form action="#" class="anker">
                                         <div class="input-field">
                                                 <i class="material-icons prefix">email</i>
                                                 <input type="email" id="email" class="validate">
-                                                <label for="email" class="">Email</label>
-                                                <span class="helper-text" data-error="wrong" data-success="right">Helper
-                                                        Text</span>
+                                                <label for="email" class="label_" id="id">Email</label>
                                         </div>
                                         <div class="input-field">
                                                 <i class="material-icons prefix">vpn_key</i>
                                                 <input type="password" id="password" class="validate">
                                                 <label for="password" class="">Passwort</label>
-                                                <span class="helper-text" data-error="wrong" data-success="right">Helper
-                                                        Text</span>
+                                                <a href="#" target="_blank" rel="noopener noreferrer"><span>Passwort
+                                                                vergessen ?</span></a>
                                         </div>
-                                        <a href="#" class="large_btn"><span class="relative"><i class="material-icons">send</i>
-                                                        Senden</span></a>
+                                        <a href="#" class="large_btn"><span class="relative">
+                                                        <svg version="1.1" id="arrow" xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                width="535.5px" height="535.5px" viewBox="0 0 535.5 535.5"
+                                                                style="enable-background:new 0 0 535.5 535.5;"
+                                                                xml:space="preserve">
+                                                                <g>
+                                                                        <g id="send">
+                                                                                <polygon points="0,497.25 535.5,267.75 0,38.25 0,216.75 382.5,267.75 0,318.75 		" />
+                                                                        </g>
+                                                                </g>
+                                                        </svg> Anmelden </span></a>
                                 </form>
+
+
+
                         </div>
                 </div>
         </div>
+        <script src="js/shopping.js"></script>
         <script src="js/scroll-to.js"></script>
         <script src="js/main.js"></script>
 
         <!--GREENSOCK-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.1/TweenMax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/plugins/CSSPlugin.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/plugins/ScrollToPlugin.min.js"></script>
 

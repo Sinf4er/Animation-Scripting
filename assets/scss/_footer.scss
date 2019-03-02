@@ -13,24 +13,24 @@ footer {
   }
 }
 footer .line {
-        margin: 0 auto;
-        max-width: 1300px;
-        height: 1px;
-        background-color: #c2c2c2;
-      }
-      
-      footer li:nth-child(1) {
-        padding: 0 0 0px 0px;
-      }
-      
-      footer li {
-        padding: 0;
-        a {
-          color: #c2c2c2;
-          font-family: "Montserrat";
-          text-transform: lowercase;
-        }
-      }
+  margin: 1rem auto;
+  max-width: 1300px;
+  height: 1px;
+  background-color: #c2c2c2;
+}
+
+footer li:nth-child(1) {
+  padding: 0 0 0px 0px;
+}
+
+footer li {
+  padding: 0;
+  a {
+    color: #c2c2c2;
+    font-family: "Montserrat";
+    text-transform: lowercase;
+  }
+}
 
 .downer_footer {
   background: #292929;
@@ -45,24 +45,24 @@ footer .line {
   align-items: center;
   small {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 }
 
 footer .icon {
-        width: 30px;
+  width: 30px;
 }
 
 .icon_pay {
-        width: 30px;
+  width: 30px;
 }
 
 .icon_flex {
-        display: flex;
-        flex-wrap: wrap;
-        li {
-                margin: 0 10px 0 0;
-        }
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    margin: 0 10px 0 0;
+  }
 }
 
 #back-to-top1 {

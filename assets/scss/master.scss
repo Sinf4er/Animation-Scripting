@@ -14,9 +14,9 @@
 
 /*Head*/
 
-@import 'slider';
-
 @import 'navigation';
+
+@import 'shopping_cart';
 
 @import 'head';
 
@@ -29,3 +29,7 @@
 /* Footer */
 
 @import 'footer';
+
+/* Media Queries */
+
+@import 'media';
